@@ -16,7 +16,8 @@ int main(int argc,char* argv[])
 		break;
 	case O_RDWR:
 		printf("read write");
-	defaault:
+		break;
+	default:
 		err_dump("unknown access mode");
 	}
 	if(val & O_APPEND)
