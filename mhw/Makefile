@@ -2,7 +2,7 @@ ROOT=..
 PLATFORM=$(shell $(ROOT)/systype.sh)
 include $(ROOT)/Make.defines.$(PLATFORM)
 
-PROGS =	1-3 1-4 1-5 1-6 1-7 1-8 1-9 1-10 3-1 3-2
+PROGS =	1-3 1-4 1-5 1-6 1-7 1-8 1-9 1-10 3-1 3-2 3-3 3-4
 
 all:	$(PROGS)
 
